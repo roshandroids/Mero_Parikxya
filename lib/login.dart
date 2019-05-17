@@ -163,18 +163,18 @@ class _LoginState extends State<Login> {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    "Have an account ? ",
+                    "Don't have account ? ",
                     style: TextStyle(fontSize: 20.0),
                   ),
                   FlatButton(
                     child: Text(
-                      "Login",
+                      "Register",
                       style: TextStyle(
                           color: Colors.blue,
                           fontSize: 15.0,
                           fontWeight: FontWeight.bold),
                     ),
-                    onPressed: () {},
+                    onPressed: moveToLogin,
                   ),
                 ],
               )
